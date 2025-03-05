@@ -17,7 +17,7 @@ const experiences = [
     id: 2,
     role: "Freelance Web Developer",
     company: "Self-Employed",
-    duration: "2019 - 2020",
+    duration: "2025 - 2025",
     description:
       "Developed and designed my college's official website, which included implementing responsive design, a user-friendly layout, and efficient navigation. This led to a 2% increase in student engagement and admissions. The site also featured a dynamic content management system and streamlined the application process.",
     skills: ["JavaScript", "HTML", "PHP", "Tailwind CSS", "Hostinger"],
