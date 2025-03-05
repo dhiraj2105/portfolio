@@ -11,9 +11,7 @@ export const Contact = () => {
             <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
               Let's Connect
             </h2>
-            <p className="text-zinc-400 text-lg">
-              Have a project in mind? Let's talk about it.
-            </p>
+            <p className="text-zinc-400 text-lg">Want to hire me ?</p>
           </div>
 
           {/* Right Side - Contact Links */}
@@ -21,10 +19,10 @@ export const Contact = () => {
             <div>
               <h3 className="text-xl font-semibold mb-2">Email</h3>
               <a
-                href="mailto:your@email.com"
+                href="mailto:dkskp2005@gmail.com"
                 className="text-zinc-400 hover:text-purple-400 transition-colors duration-300 text-lg"
               >
-                your@email.com
+                dkskp2005@gmail.com
               </a>
             </div>
 
