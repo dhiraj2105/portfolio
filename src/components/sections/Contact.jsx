@@ -26,7 +26,7 @@ export const Contact = () => {
               </a>
             </div>
 
-            <div>
+            {/* <div>
               <h3 className="text-xl font-semibold mb-3">Social</h3>
               <div className="flex gap-6">
                 {["GitHub", "LinkedIn", "Twitter"].map((platform) => (
@@ -41,7 +41,7 @@ export const Contact = () => {
                   </motion.a>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </BentoBox>
       </div>

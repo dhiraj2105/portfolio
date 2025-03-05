@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { BentoBox } from "../ui/BentoBox";
 import { useEffect, useRef, useState } from "react";
+import myresume from "../../assets/Dhiraj-Kumar-Software-Engineer.pdf";
 
 export const Hero = () => {
   const slideUpVariants = {
@@ -115,7 +116,11 @@ export const Hero = () => {
               transition={{ duration: 0.2 }}
               className="px-8 py-4 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium relative group overflow-hidden"
             >
-              <span className="relative z-10">Explore My Work</span>
+              <span className="relative z-10">
+                <a href={myresume} download>
+                  Resume
+                </a>
+              </span>
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity" />
             </motion.button>
           </motion.div>
@@ -245,7 +250,7 @@ export const Hero = () => {
             </div>
             <div className="flex flex-wrap gap-2">
               <motion.a
-                href="#projects"
+                href="https://github.com/dhiraj2105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-3 py-1.5 text-xs bg-white/5 hover:bg-green-500/10 rounded-md text-zinc-400 hover:text-green-400 flex items-center gap-1.5 transition-colors"
@@ -263,10 +268,10 @@ export const Hero = () => {
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
-                Projects
+                Github
               </motion.a>
               <motion.a
-                href="#skills"
+                href="https://www.linkedin.com/in/dhiraj-kumar-3900a71a6/"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-3 py-1.5 text-xs bg-white/5 hover:bg-green-500/10 rounded-md text-zinc-400 hover:text-green-400 flex items-center gap-1.5 transition-colors"
@@ -284,10 +289,10 @@ export const Hero = () => {
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
-                Skills
+                LinkedIn
               </motion.a>
               <motion.a
-                href="#contact"
+                href="https://leetcode.com/u/dkskp2005/"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-3 py-1.5 text-xs bg-white/5 hover:bg-green-500/10 rounded-md text-zinc-400 hover:text-green-400 flex items-center gap-1.5 transition-colors"
@@ -305,7 +310,7 @@ export const Hero = () => {
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
-                Contact
+                Leetcode
               </motion.a>
             </div>
           </motion.div>
