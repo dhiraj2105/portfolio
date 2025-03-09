@@ -6,15 +6,15 @@ import { useRef } from "react";
 const testimonials = [
   {
     id: 1,
-    text: "Working with them was an absolute pleasure. Their attention to detail and creative approach brought our vision to life perfectly.",
-    author: "Sarah Johnson",
-    role: "CEO, TechStart",
+    text: "Dhiraj is a talented and diligent computer science student. He possesses strong technical skills and a proactive approach to learning, especially in Full Stack Web Development. His contribution to building his college website showcased his ability to handle real-world projects efficiently. I highly recommend him.",
+    author: "Hemendra Shrama",
+    role: "Faculty, COER University",
   },
   {
     id: 2,
-    text: "Exceptional work quality and professional attitude. They delivered our project ahead of schedule with outstanding results.",
-    author: "Michael Chen",
-    role: "Product Manager, InnovateCo",
+    text: "Dhiraj did an excellent job as a backend intern—reliable, quick at solving problems, and great to work with. He adapted well to challenges and consistently delivered quality work. He has a lot of potential to grow in his career!",
+    author: "Shraddha Sarwade",
+    role: "Team Leader, To-Let Globe",
   },
   {
     id: 3,
@@ -24,9 +24,9 @@ const testimonials = [
   },
   {
     id: 4,
-    text: "Innovative solutions and great communication throughout the project. Highly recommended for any web development needs.",
-    author: "Alex Thompson",
-    role: "Founder, WebStack",
+    text: "I am pleased to write this testimonial for Dhiraj Kumar, a student of the MCA course at COER University. Dhiraj possesses excellent knowledge of web development and has consistently demonstrated strong technical skills in his projects. He is a highly obedient, dedicated and hardworking student who approaches his studies with sincerity and focus. His respectful attitude and willingness to learn make him stand out in the classroom. I am confident that Dhiraj’s technical expertise and disciplined nature will lead him to great success in his future.",
+    author: "Gesu Thakur",
+    role: "HOD - CSE, COER University",
   },
 ];
 
