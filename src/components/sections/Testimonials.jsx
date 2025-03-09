@@ -18,9 +18,9 @@ const testimonials = [
   },
   {
     id: 3,
-    text: "Their expertise in modern web technologies and problem-solving abilities made our complex project seem effortless.",
-    author: "Emma Davis",
-    role: "CTO, DigitalFlow",
+    text: "I had the pleasure of working with Dhiraj on my website, and I couldn't be more satisfied with the result. He has excellent web design skills, creating a clean, professional, and user-friendly site. Beyond his technical skills, Dhiraj is reliable, communicative, and committed to delivering quality work. Throughout the process, he was highly communicative, receptive to feedback, and made revisions promptly based on my inputs. I highly recommend him for anyone looking for a skilled and dependable web developer! ",
+    author: "Prahlada Mittal",
+    role: "IIT Roorkee",
   },
   {
     id: 4,

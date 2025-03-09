@@ -7,8 +7,8 @@ export const FloatingNav = () => {
     "home",
     "about",
     "experience",
-    "projects",
     "skills",
+    "projects",
     "testimonials",
     "contact",
   ];

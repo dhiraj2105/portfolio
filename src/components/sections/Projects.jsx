@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BentoBox } from "../ui/BentoBox";
 
 import menpackImage from "../../assets/project-images/menpack.png";
+import dlogImage from "../../assets/project-images/dlog.png";
+import videchatImage from "../../assets/project-images/videochat.png";
+import meilleurspaceImage from "../../assets/project-images/meilleurspace.png";
 
 export const Projects = () => {
   const [activeProject, setActiveProject] = useState(0);
@@ -20,7 +23,7 @@ export const Projects = () => {
       description:
         "Designed a user-friendly image-sharing platform with integrated messaging capabilities. Implemented feedback mechanisms that resulted in a 30% improvement in user satisfaction ratings, directlyimpacting platform growth.",
       tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-      image: menpackImage,
+      image: meilleurspaceImage,
       link: "#",
     },
     {
@@ -28,7 +31,7 @@ export const Projects = () => {
       description:
         "Engineered a video conferencing app with real-time communication, enabling one-on-one video calls and callmeetings.",
       tech: ["React", "Node.js", "MongoDB", "ZegoCloud", "TypeScript"],
-      image: menpackImage,
+      image: videchatImage,
       link: "#",
     },
     {
@@ -36,7 +39,7 @@ export const Projects = () => {
       description:
         "Engineered a blogging platform with full CRUD capabilities and image upload, supporting 55+ users.Implemented user authentication and authorization, ensuring secure user data.",
       tech: ["Tailwind CSS", "Next.js", "MongoDB", "TypeScript"],
-      image: menpackImage,
+      image: dlogImage,
       link: "#",
     },
     {
