@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { BentoBox } from "../ui/BentoBox";
 import { useEffect, useRef, useState } from "react";
-import myresume from "../../assets/Dhiraj-Kumar-Software-Engineer.pdf";
+import myresume from "../../assets/DhirajKumarResume.pdf";
 
 export const Hero = () => {
   const slideUpVariants = {
